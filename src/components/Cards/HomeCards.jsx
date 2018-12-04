@@ -11,17 +11,18 @@ class HomeCards extends React.Component {
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Recipients</h5>
-              <p class="card-text">Find What You Neeed </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">Find What You Need </p>
+              <a href="/AllParts" class="btn btn-primary">Select</a> 
+              
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Donars</h5>
+              <h5 class="card-title">Donors</h5>
               <p class="card-text">Give a prosthetic</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="/Donations" class="btn btn-primary">Donate</a>
             </div>
           </div>
         </div>

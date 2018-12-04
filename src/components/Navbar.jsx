@@ -6,15 +6,23 @@ import './Footer.jsx';
 
 
 
-
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-dark bg-primary">
-            <a className="navbar-brand" to="/">Prosthetic By Proxy</a>
+
+      <nav className="navbar navbar-dark bg-primary"> 
+     
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
+  <form className="form-inline my-2 my-lg-0">
+      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  <div className="logo" id="logo"><img src="https://storage.pixteller.com/designs/designs-images/2018-12-03/10/logo-1-5c0596089c591.png"></img></div>
+  
+ 
+            <a className="navbar-brand" to="/"></a>
   <div className= "container">
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
@@ -26,7 +34,7 @@ class Navbar extends Component {
             Make a Selection
         </Link>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <Link className="dropdown-item" to="/Select">Upper Limb</Link>
+          <Link className="dropdown-item" to="/UpperLimbs">Upper Limb</Link>
           <Link className="dropdown-item" to="/LowerLimbs">Lower Limb</Link>
           <div className="dropdown-divider"></div>
           <Link className="dropdown-item" to="/">Info for New Amputees</Link>
@@ -40,7 +48,8 @@ class Navbar extends Component {
         <Link className="nav-link disabled" to="/">Disabled</Link>
       </li>
     </ul>
-    </div>
+ 
+  </div>
   </div>
 </nav>
 
